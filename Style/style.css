@@ -193,3 +193,29 @@ body{
   text-decoration: none;
   border-radius: 4px;
 }
+
+/* Botão flutuante circular */
+.btn-flutuante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff; /* Azul padrão */
+    color: rgb(10, 138, 243);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px; /* Centraliza o ícone */
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+/* Efeito hover */
+.btn-flutuante:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+    transform: scale(2.2);
+}
